@@ -4,7 +4,7 @@
 
 stian@phobos ~ $`vainfo`
 
-'''Trying display: wayland
+'''Trying display: wayland'''
 ><libva info: VA-API version 1.20.0
 libva info: Trying to open /run/opengl-driver/lib/dri/radeonsi_drv_video.so
 libva info: Found init function __vaDriverInit_1_20
@@ -33,9 +33,9 @@ vainfo: Supported profile and entrypoints
       VAProfileNone                   : VAEntrypointVideoProc>
 
 Gpu in question: AMD Ryzen 9 5900HX with Radeon Graphics
-There is also a 6800 in the same pc.
+There is also a 6800 in the same pc. And markdown makes me dissy.
 
-There is H264 codec, hvec, vpn9, etc. Fairly new cpu your milage will wary.
+There is H264 ***codec, hvec, vpn9**. Fairly new cpu your milage will wary.
 
 So for utube they use AV1 and only the newest kind of gpu might have acceleration, use addon for firefox.
 
