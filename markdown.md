@@ -1,57 +1,35 @@
-<p align="center">
-  <a href="https://example.com/">
-    <img src="https://via.placeholder.com/72" alt="Logo" width=72 height=72>
-  </a>
+## Enable hardware decoding in wayland flatpak firefox
 
-  <h3 align="center">Logo</h3>
-
-  <p align="center">
-    Short description
-    <br>
-    <a href="https://reponame/issues/new?template=bug.md">Report bug</a>
-    ·
-    <a href="https://reponame/issues/new?template=feature.md&labels=feature">Request feature</a>
-  </p>
-</p>
-
-
-## Table of contents
-
-- [Quick start](#quick-start)
+- [Prequsites](#Prequsites)
 - [Status](#status)
-- [What's included](#whats-included)
-- [Bugs and feature requests](#bugs-and-feature-requests)
+- [Libva](#libva)
+- [vainfo](#vainfo)
 - [Contributing](#contributing)
 - [Creators](#creators)
 - [Thanks](#thanks)
 - [Copyright and license](#copyright-and-license)
 
 
-## Quick start
+## Prequsites
 
-Some text
+Flatpak installed to you favorite distrobution.
 
-- Instruction 1
-- Instruction 2
-- Instruction 3
+- Flatpak [flatpak]([https://flatpak.org/)
+- Flatseal [Flatseal](https://flathub.org/apps/com.github.tchx84.Flatseal)
+- libva package from you favorite linux. va-utils nixos and arch.
+- programs to monitor cpu/gpu/apu.
 
-## Status
+## Libva
+Libva can be used to find out wich hw codec cpu has.
+add it to configurion.nixo
+or pacman -S va-utils.
 
-Here goes all the budgets
-
-## What's included
+## vainfo
 
 Some text
 
 ```text
-folder1/
-└── folder2/
-    ├── folder3/
-    │   ├── file1
-    │   └── file2
-    └── folder4/
-        ├── file3
-        └── file4
+
 ```
 
 ## Bugs and feature requests
