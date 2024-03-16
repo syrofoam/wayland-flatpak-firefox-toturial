@@ -1,4 +1,3 @@
-
 #Using wayland and flatpak version of firefox.
 
 ***vainfo*** program is part of va-utils (package on nixos/archlinux)
@@ -6,7 +5,7 @@
 stian@phobos ~ $`vainfo`
 
 '''Trying display: wayland
->libva info: VA-API version 1.20.0
+><libva info: VA-API version 1.20.0
 libva info: Trying to open /run/opengl-driver/lib/dri/radeonsi_drv_video.so
 libva info: Found init function __vaDriverInit_1_20
 libva info: va_openDriver() returns 0
