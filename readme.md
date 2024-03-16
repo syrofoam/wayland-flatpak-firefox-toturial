@@ -12,9 +12,9 @@
 
 ## Prequsites
 
-Flatpak installed to you favorite distrobution.
+Flatpak installed to you favorite linux-distrobution.
 
-- Flatpak [Flatpak]([https://flatpak.org/)
+- Flatpak
 
 - Flatseal [Flatseal](https://flathub.org/apps/com.github.tchx84.Flatseal)
 
@@ -74,13 +74,13 @@ Go into the adressbar and type about:config
 Then you want to set ***media.ffmpeg.vaapi.enabled** bolean to *True*
 
 ## h265fy
-The firefox addon h265fy turns AV1 video on youtube into h265, new chip should support it tho.
+The firefox addon h265fy turns AV1 video on youtube into h265, new chip should *can* support it.
 
 ## warning
 
 **Doing this COULD crash your web browser**
 
-*But could also result in lower tempratures and better perf*
+*Sucess will result in lower cpu tempratures and better perf*
 
 ## monitoring
 to check gpu I used ***amdgpu_top***
