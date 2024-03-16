@@ -1,7 +1,7 @@
 
 #Using wayland and flatpak version of firefox.
 
-***vainfo is part of va-utils.
+***vainfo*** program is part of va-utils (package on nixos/archlinux)
 
 stian@phobos ~ $`vainfo`
 
@@ -31,7 +31,7 @@ vainfo: Supported profile and entrypoints
       VAProfileJPEGBaseline           : VAEntrypointVLD
       VAProfileVP9Profile0            : VAEntrypointVLD
       VAProfileVP9Profile2            : VAEntrypointVLD
-      VAProfileNone                   : VAEntrypointVideoProc
+      VAProfileNone                   : VAEntrypointVideoProc>
 
 Gpu in question: AMD Ryzen 9 5900HX with Radeon Graphics
 There is also a 6800 in the same pc.
