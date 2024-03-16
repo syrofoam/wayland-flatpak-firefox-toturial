@@ -27,9 +27,10 @@ Flatpak installed to you favorite distrobution.
 Remove X11 as the default api so wayland is first and fallback is still X11.
 
 ## Libva
-Libva can be used to find out wich hw codec cpu has.
-add it to configurion.nixo
-or pacman -S va-utils.
+Can be added to your distro with:
+
+*nix-shell -p va-uitils*
+*pacman -S va-utils*.
 
 ## vainfo
 
