@@ -24,6 +24,7 @@ Flatpak installed to you favorite distrobution.
 ## flatseal
 
 ![flatseal setting](/test.png)
+Remove X11 as the default api so wayland is first and fallback is still X11.
 
 ## Libva
 Libva can be used to find out wich hw codec cpu has.
