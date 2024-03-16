@@ -1,7 +1,7 @@
 ## Enable hardware decoding in wayland flatpak firefox
 
 - [Prequsites](#Prequsites)
-- [Status](#status)
+- [flatseal](#flatseal)
 - [Libva](#libva)
 - [vainfo](#vainfo)
 - [firefox](#firefox)
@@ -21,6 +21,9 @@ Flatpak installed to you favorite distrobution.
 - libva package from you favorite linux. va-utils nixos and arch.
 
 - programs to monitor cpu/gpu/apu.
+## flatseal
+
+[img://test.png]
 
 ## Libva
 Libva can be used to find out wich hw codec cpu has.
@@ -57,9 +60,9 @@ vainfo: Supported profile and entrypoints
       VAProfileJPEGBaseline           : VAEntrypointVLD
       VAProfileVP9Profile0            : VAEntrypointVLD
       VAProfileVP9Profile2            : VAEntrypointVLD
-      VAProfileNone                   : VAEntrypointVideoProc'''
-
+      VAProfileNone                   : VAEntrypointVideoProc
 ```
+
 What we get information about is the differenct supported hardware codecs in the apu.
 
 ## firefox
