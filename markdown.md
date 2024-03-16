@@ -14,7 +14,7 @@
 
 Flatpak installed to you favorite distrobution.
 
-- Flatpak [flatpak]([https://flatpak.org/)
+- Flatpak [Flatpak]([https://flatpak.org/)
 
 - Flatseal [Flatseal](https://flathub.org/apps/com.github.tchx84.Flatseal)
 
@@ -70,7 +70,7 @@ What we get information about is the differenct supported hardware codecs in the
 
 ## firefox
 
-Go into the adressbar and type about:configurion
+Go into the adressbar and type about:config
 Then you want to set ***media.ffmpeg.vaapi.enabled** bolean to *True*
 
 ## h265fy
