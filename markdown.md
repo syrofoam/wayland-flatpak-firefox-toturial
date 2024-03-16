@@ -30,6 +30,7 @@ Remove X11 as the default api so wayland is first and fallback is still X11.
 Can be added to your distro with:
 
 *nix-shell -p va-uitils*
+
 *pacman -S va-utils*.
 
 ## vainfo
