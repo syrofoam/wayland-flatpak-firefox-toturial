@@ -82,9 +82,9 @@ The firefox addon h265fy turns AV1 video on youtube into h265, new chip should s
 
 *But could also result in lower tempratures and better perf*
 
-## mointoring
+## monitoring
 to check gpu I used ***amdgpu_top***
 and for cpu I used ***btop***
-
+![amdgpu_top](/amdgpu_top.png)
 
 Enjoy :metal:
