@@ -4,10 +4,10 @@
 - [Status](#status)
 - [Libva](#libva)
 - [vainfo](#vainfo)
-- [Contributing](#contributing)
-- [Creators](#creators)
-- [Thanks](#thanks)
-- [Copyright and license](#copyright-and-license)
+- [firefox](#firefox)
+- [add firefox addon h264fy](#h264fy)
+- [warning](#warning)
+- [monitoring](#monitoring)
 
 
 ## Prequsites
@@ -15,8 +15,11 @@
 Flatpak installed to you favorite distrobution.
 
 - Flatpak [flatpak]([https://flatpak.org/)
+
 - Flatseal [Flatseal](https://flathub.org/apps/com.github.tchx84.Flatseal)
+
 - libva package from you favorite linux. va-utils nixos and arch.
+
 - programs to monitor cpu/gpu/apu.
 
 ## Libva
@@ -29,33 +32,53 @@ or pacman -S va-utils.
 Some text
 
 ```text
+ibva info: VA-API version 1.20.0
+libva info: Trying to open /run/opengl-driver/lib/dri/radeonsi_drv_video.so
+libva info: Found init function __vaDriverInit_1_20
+libva info: va_openDriver() returns 0
+vainfo: VA-API version: 1.20 (libva 2.20.0)
+vainfo: Driver version: Mesa Gallium driver 23.1.9 for AMD Radeon Graphics (renoir, LLVM 16.0.6, DRM 3.54, 6.6.13-xanmod1)
+vainfo: Supported profile and entrypoints
+      VAProfileMPEG2Simple            : VAEntrypointVLD
+      VAProfileMPEG2Main              : VAEntrypointVLD
+      VAProfileVC1Simple              : VAEntrypointVLD
+      VAProfileVC1Main                : VAEntrypointVLD
+      VAProfileVC1Advanced            : VAEntrypointVLD
+      VAProfileH264ConstrainedBaseline: VAEntrypointVLD
+      VAProfileH264ConstrainedBaseline: VAEntrypointEncSlice
+      VAProfileH264Main               : VAEntrypointVLD
+      VAProfileH264Main               : VAEntrypointEncSlice
+      VAProfileH264High               : VAEntrypointVLD
+      VAProfileH264High               : VAEntrypointEncSlice
+      VAProfileHEVCMain               : VAEntrypointVLD
+      VAProfileHEVCMain               : VAEntrypointEncSlice
+      VAProfileHEVCMain10             : VAEntrypointVLD
+      VAProfileHEVCMain10             : VAEntrypointEncSlice
+      VAProfileJPEGBaseline           : VAEntrypointVLD
+      VAProfileVP9Profile0            : VAEntrypointVLD
+      VAProfileVP9Profile2            : VAEntrypointVLD
+      VAProfileNone                   : VAEntrypointVideoProc'''
 
 ```
+What we get information about is the differenct supported hardware codecs in the apu.
 
-## Bugs and feature requests
+## firefox
 
-Have a bug or a feature request? Please first read the [issue guidelines](https://reponame/blob/master/CONTRIBUTING.md) and search for existing and closed issues. If your problem or idea is not addressed yet, [please open a new issue](https://reponame/issues/new).
+Go into the adressbar and type about:configurion
+Then you want to set ***media.ffmpeg.vaapi.enabled** bolean to *True*
 
-## Contributing
+## h265fy
+The firefox addon h265fy turns AV1 video on youtube into h265, new chip should support it tho.
 
-Please read through our [contributing guidelines](https://reponame/blob/master/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
+## warning
 
-Moreover, all HTML and CSS should conform to the [Code Guide](https://github.com/mdo/code-guide), maintained by [Main author](https://github.com/usernamemainauthor).
+**Doing this COULD crash your web browser**
 
-Editor preferences are available in the [editor config](https://reponame/blob/master/.editorconfig) for easy use in common text editors. Read more and download plugins at <https://editorconfig.org/>.
+*But could also result in lower tempratures and better perf*
 
-## Creators
+## mointoring
+to check gpu I used ***amdgpu_top***
+and for cpu I used ***btop***
 
-**Creator 1**
-
-- <https://github.com/usernamecreator1>
-
-## Thanks
-
-Some Text
-
-## Copyright and license
-
-Code and documentation copyright 2023-2024 the authors. Code released under the [MIT License](https://reponame/blob/master/LICENSE).
 
 Enjoy :metal:
