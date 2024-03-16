@@ -29,7 +29,7 @@ or pacman -S va-utils.
 
 ## vainfo
 
-Some text
+stian@phobos ~ $`vainfo`
 
 ```text
 ibva info: VA-API version 1.20.0
