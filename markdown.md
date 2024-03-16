@@ -23,7 +23,7 @@ Flatpak installed to you favorite distrobution.
 - programs to monitor cpu/gpu/apu.
 ## flatseal
 
-[img://test.png]
+![flatseal setting](/test.png)
 
 ## Libva
 Libva can be used to find out wich hw codec cpu has.
